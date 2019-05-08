@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="Assets\Shaders\DefaultPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\DefaultVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="TestPinkPixel.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\ParticleSystemShaders\ParticleSysGS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\ParticleSystemShaders\ParticleSysPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\ParticleSystemShaders\ParticleSysVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\PPdefaultGeom.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\PPdefaultVertex.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\PPEblurPixel.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\TexturePS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\GalaxyPPpixel.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\AI.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\CollidableObject.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\GameObject.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\MoveableObject.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Player.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\PowerUp.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\BlendState.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\Camera.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\DepthState.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\DepthStencil.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\Geometry.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\Graphics.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\RenderDescription.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\Renderer.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\RenderTarget.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\Shader.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\Texture.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\InputManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\ResourceManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\SceneManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\BaseScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\MenuScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\StandardGameScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\AssetFactory.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\XInputGamePad.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\CollisionHandler.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\ButtonObject.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\LabledObject.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\ParticleManager.cpp" />
+    <ClCompile Include="Graphics Pipeline\PostProcessingEffects\BlurPostProcess.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\CompositeObject.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalStructures.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityBomb.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\LivesBar.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Object.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\PostProcessingEffects\NebulaPostProcess.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\ParticleSystem.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\PlayerZone.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\DirectInputGamePad.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\PostProcessingEffects\PassOverPostProcess.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\PostProcessingEffects\PostProcessingEffect.cpp">
+      <Filter>Source Files\Graphics Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics Pipeline\TextDescription.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="WAVFileReader.cpp" />
+    <ClCompile Include="ThreadPool.cpp" />
+    <ClCompile Include="Graphics Pipeline\PostProcessingEffects\NebulaPostProcess.cpp" />
+    <ClCompile Include="GameObjects\TexturedObject.cpp" />
+    <ClCompile Include="Scenes\GameOverScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\AI.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\CollidableObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\GameObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\MoveableObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Player.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\PowerUp.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\APIDeffinition.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\BlendState.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\BufferTypes.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\Camera.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\DepthState.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\DepthStencil.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\Geometry.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\Graphics.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\RenderDescription.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\Renderer.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\RenderTarget.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\Shader.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\ShaderEnum.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\Texture.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\InputManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\ResourceManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\SceneManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\BaseScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\MenuScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\StandardGameScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\AssetFactory.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\OutputHandler.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\XInputGamePad.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\CollisionHandler.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\ParticleManager.h" />
+    <ClInclude Include="Graphics Pipeline\PostProcessingEffects\BlurPostProcess.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\ButtonObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\CompositeObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityBomb.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\LabledObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\InputEnums.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalStructures.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\PostProcessingEffects\PassOverPostProcess.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\PostProcessingEffects\PostProcessingEffect.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\PlayerZone.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\DirectInputGamePad.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\LivesBar.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\PostProcessingEffects\NebulaPostProcess.h">
+      <Filter>Header Files\Graphics Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Object.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\ParticleSystem.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics Pipeline\TextDescription.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseScene.h" />
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="WAVFileReader.h" />
+    <ClInclude Include="ThreadPool.h" />
+    <ClInclude Include="Graphics Pipeline\PostProcessingEffects\NebulaPostProcess.h" />
+    <ClInclude Include="GameObjects\TexturedObject.h" />
+    <ClInclude Include="Scenes\GameOverScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ShapeConquest.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9656517d-366d-400b-968d-c59d3c15e9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1f6a6170-ab6e-4293-826d-62e4033d1e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{1e0a9071-71df-4004-892f-70d7ace3420f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{052ccd92-4906-468c-8025-3ca1d3a312cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{8d5f39d7-a2a1-4b90-b9e4-b32a7d14e287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{355463f4-5004-4a24-9351-ed9dcda1e440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics Pipeline">
+      <UniqueIdentifier>{b8ca23d8-7c5c-4cbd-a149-1bb384210cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{32cdc622-b1fe-4024-806c-7a49bcc34c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics Pipeline">
+      <UniqueIdentifier>{3acad8c2-73ef-4d8c-a865-bf90f0a6dc79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{789f3fe8-06a3-4ed6-8721-a7de86e41600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects">
+      <UniqueIdentifier>{461dfba0-8ba8-43ef-a28f-d33bb57a3d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Objects">
+      <UniqueIdentifier>{f6157f92-f1a6-4c97-bd2c-d8d5e3fe21dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2d302a3b-d93d-4f7b-bc06-6250407c3134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{b40055f3-f9cd-4dac-b538-2a5460a46fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{5551b9df-3690-4bc3-a6cc-a12eed759f02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\1122-japanese-macaque.jpg" />
+    <Image Include="Assets\Textures\BurstShot.png" />
+    <Image Include="Assets\Textures\Empty.png" />
+    <Image Include="Assets\Textures\GravBomb.png" />
+    <Image Include="Assets\Textures\RapidShot.png" />
+    <Image Include="Assets\Textures\Shield.png" />
+    <Image Include="Assets\Textures\SingleShot.png" />
+    <Image Include="Assets\Textures\SpeedBoost.png" />
+    <Image Include="Assets\Textures\TriBurstShot.png" />
+    <Image Include="Assets\Textures\TriRapidShot.png" />
+    <Image Include="Assets\Textures\TriSingleShot.png" />
+  </ItemGroup>
+</Project>

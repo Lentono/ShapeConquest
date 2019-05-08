@@ -1,0 +1,77 @@
+﻿  AI.cpp
+  BaseScene.cpp
+  CollidableObject.cpp
+  CollisionHandler.cpp
+  GameWindow.cpp
+  MenuScene.cpp
+  MoveableObject.cpp
+  Player.cpp
+d:\documents\university\msc\development project\acw\devproj2019groupa\shapeconquest\shapeconquest\menuscene.cpp(47): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+d:\documents\university\msc\development project\acw\devproj2019groupa\shapeconquest\shapeconquest\player.cpp(58): warning C4244: '*=': conversion from 'const double' to 'float', possible loss of data
+d:\documents\university\msc\development project\acw\devproj2019groupa\shapeconquest\shapeconquest\player.cpp(59): warning C4244: '*=': conversion from 'const double' to 'float', possible loss of data
+d:\documents\university\msc\development project\acw\devproj2019groupa\shapeconquest\shapeconquest\graphics.h(77): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data (compiling source file MenuScene.cpp)
+  d:\documents\university\msc\development project\acw\devproj2019groupa\shapeconquest\shapeconquest\assetfactory.h(68): note: see reference to function template instantiation 'ID3D11Buffer *Graphics::CreateBuffer<SimpleVertex>(std::vector<SimpleVertex,std::allocator<_Ty>>,D3D11_USAGE,unsigned int,unsigned int)' being compiled
+          with
+          [
+              _Ty=SimpleVertex
+          ] (compiling source file MenuScene.cpp)
+  d:\documents\university\msc\development project\acw\devproj2019groupa\shapeconquest\shapeconquest\menuscene.cpp(39): note: see reference to function template instantiation 'std::shared_ptr<Geometry> AssetFactory::CreateGeometry<SimpleVertex>(std::vector<SimpleVertex,std::allocator<_Ty>>,std::vector<short,std::allocator<short>>,unsigned int)' being compiled
+          with
+          [
+              _Ty=SimpleVertex
+          ]
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1799): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file MenuScene.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1865): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<ID3D11Buffer*&,ID3D11Buffer*&,unsigned __int64,unsigned __int64,unsigned __int64,D3D_PRIMITIVE_TOPOLOGY>(ID3D11Buffer *&,ID3D11Buffer *&,unsigned __int64 &&,unsigned __int64 &&,unsigned __int64 &&,D3D_PRIMITIVE_TOPOLOGY &&)' being compiled
+          with
+          [
+              _Ty=Geometry
+          ] (compiling source file MenuScene.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1866): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<ID3D11Buffer*&,ID3D11Buffer*&,unsigned __int64,unsigned __int64,unsigned __int64,D3D_PRIMITIVE_TOPOLOGY>(ID3D11Buffer *&,ID3D11Buffer *&,unsigned __int64 &&,unsigned __int64 &&,unsigned __int64 &&,D3D_PRIMITIVE_TOPOLOGY &&)' being compiled
+          with
+          [
+              _Ty=Geometry
+          ] (compiling source file MenuScene.cpp)
+  d:\documents\university\msc\development project\acw\devproj2019groupa\shapeconquest\shapeconquest\assetfactory.h(70): note: see reference to function template instantiation 'std::shared_ptr<Geometry> std::make_shared<Geometry,ID3D11Buffer*&,ID3D11Buffer*&,unsigned __int64,unsigned __int64,size_t,D3D_PRIMITIVE_TOPOLOGY>(ID3D11Buffer *&,ID3D11Buffer *&,unsigned __int64 &&,unsigned __int64 &&,size_t &&,D3D_PRIMITIVE_TOPOLOGY &&)' being compiled (compiling source file MenuScene.cpp)
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\utility(174): warning C4267: 'initializing': conversion from 'size_t' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty2=unsigned int
+          ] (compiling source file GameWindow.cpp)
+  d:\documents\university\msc\development project\acw\devproj2019groupa\shapeconquest\shapeconquest\gamewindow.cpp(52): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<ShaderTypes,size_t,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Kty=ShaderTypes,
+              _Ty=unsigned int,
+              _Other1=ShaderTypes,
+              _Other2=size_t
+          ]
+  d:\documents\university\msc\development project\acw\devproj2019groupa\shapeconquest\shapeconquest\gamewindow.cpp(52): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<ShaderTypes,size_t,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Kty=ShaderTypes,
+              _Ty=unsigned int,
+              _Other1=ShaderTypes,
+              _Other2=size_t
+          ]
+  PowerUp.cpp
+  SceneManager.cpp
+  StandardGameScene.cpp
+  main.cpp
+d:\documents\university\msc\development project\acw\devproj2019groupa\shapeconquest\shapeconquest\main.cpp(5): warning C4114: same type qualifier used more than once
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ] (compiling source file StandardGameScene.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1865): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<double,float,glm::vec<3,float,0>,glm::qua<float,0>,glm::vec<3,float,0>,std::shared_ptr<Geometry>,std::shared_ptr<RenderDescription>>(double &&,float &&,glm::vec<3,float,0> &&,glm::qua<float,0> &&,glm::vec<3,float,0> &&,std::shared_ptr<Geometry> &&,std::shared_ptr<RenderDescription> &&)' being compiled
+          with
+          [
+              _Ty=Player
+          ] (compiling source file StandardGameScene.cpp)
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(1866): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<double,float,glm::vec<3,float,0>,glm::qua<float,0>,glm::vec<3,float,0>,std::shared_ptr<Geometry>,std::shared_ptr<RenderDescription>>(double &&,float &&,glm::vec<3,float,0> &&,glm::qua<float,0> &&,glm::vec<3,float,0> &&,std::shared_ptr<Geometry> &&,std::shared_ptr<RenderDescription> &&)' being compiled
+          with
+          [
+              _Ty=Player
+          ] (compiling source file StandardGameScene.cpp)
+  d:\documents\university\msc\development project\acw\devproj2019groupa\shapeconquest\shapeconquest\standardgamescene.cpp(20): note: see reference to function template instantiation 'std::shared_ptr<Player> std::make_shared<Player,double,float,glm::vec3,glm::quat,glm::vec3,std::shared_ptr<Geometry>,std::shared_ptr<RenderDescription>>(double &&,float &&,glm::vec3 &&,glm::quat &&,glm::vec3 &&,std::shared_ptr<Geometry> &&,std::shared_ptr<RenderDescription> &&)' being compiled
+  ShapeConquest.vcxproj -> D:\Documents\University\MSc\Development Project\ACW\DevProj2019GroupA\ShapeConquest\x64\Debug\ShapeConquest.exe
